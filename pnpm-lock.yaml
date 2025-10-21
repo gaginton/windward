@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  windward:
+    specifier: 'link:'
+    version: 'link:'
+
 devDependencies:
   concurrently:
     specifier: ^9.0.0
