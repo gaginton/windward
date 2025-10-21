@@ -1,0 +1,12 @@
+{
+  "name": "windward",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@9",
+  "scripts": {
+    "start": "concurrently \"pnpm --filter windward-server run dev\" \"pnpm --filter client run dev\""
+  },  
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

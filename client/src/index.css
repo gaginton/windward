@@ -1,0 +1,22 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f6f6f6;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+}
+th {
+  cursor: pointer;
+  background: #fafafa;
+  user-select: none;
+}
+th:hover {
+  background: #eee;
+}

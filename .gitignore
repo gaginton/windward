@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+pnpm-lock.yaml
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite cache
+.vite/
+vite.config.ts.timestamp*
+
+# Editor settings
+.DS_Store
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
